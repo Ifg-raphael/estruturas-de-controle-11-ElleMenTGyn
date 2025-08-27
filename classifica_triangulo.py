@@ -1,9 +1,9 @@
 #Entra com os valores para cada um dos lados do triângulo
-a = int(input("Digite o valor do 1º lado:"))
+a = int(input())
 
-b = int(input("Digite o valor do 2º lado:"))
+b = int(input())
 
-c = int(input("Digite o valor do 3º lado:"))
+c = int(input())
 
 #Verificar primeiramente se é um triângulo, através da fórmula da desigualdade triangular. 
 if a < b + c and b < a + c and c < a + b:
