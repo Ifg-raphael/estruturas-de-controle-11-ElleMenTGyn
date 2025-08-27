@@ -1,9 +1,5 @@
 #Entra com os valores para cada um dos lados do triângulo
-a = int(input())
-
-b = int(input())
-
-c = int(input())
+a, b, c = map(int, input().split())
 
 #Verificar primeiramente se é um triângulo, através da fórmula da desigualdade triangular. 
 if a < b + c and b < a + c and c < a + b:
